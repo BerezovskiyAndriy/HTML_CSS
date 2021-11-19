@@ -1,0 +1,22 @@
+/*----глобальні повторюючі елементи------------*/
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.df{
+    display: flex;
+}
+.h{
+    height: 10px;
+}
+.form{
+    background-color: var(--content);
+    border-radius: 25px;
+}
+.form2{
+    background-color: var(--bg);
+    border-radius: 25px;
+}
+.b{
+    border: 3px solid #368c8c;
+}

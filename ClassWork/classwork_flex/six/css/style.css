@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------------------------------*/
+.wrapper{
+    padding: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+.block1, .block2, .block3, .block4, .block5, .block6{
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+.item1{
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 15px;
+}
+.block1, .block2{
+    padding: 150px 0;
+}
+.block3{
+    padding: 100px 0;
+    margin-bottom: 15px;
+}
+.item3{
+    display: flex;
+    column-gap: 15px;
+}
+.block4, .block5, .block6{
+    padding: 70px 0;
+    background-color: darkblue;
+}

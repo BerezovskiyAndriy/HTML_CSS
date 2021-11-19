@@ -1,0 +1,14 @@
+/*----повторюючі елементи------------*/
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.df{
+    display: flex;
+}
+.btn{
+    height: 47px;
+    width: 157px;
+    background-color: #FF7400;;
+}

@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:root{
+    --content: #7a7575;
+    --text: #b7b4b4;
+    --bg: #dcd5d5;
+}
+nav, footer, header, aside {
+    display: block;
+}
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+/*-------------------------------------------------------*/
+.hero{
+    background-color: var(--bg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 150px;
+    padding-top: 50px;
+}
+.logo{
+    background-color: var(--content);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.nav__list{
+    display: flex;
+    column-gap: 40px;
+}
+.nav__item{
+    height: 30px;
+    width: 150px;
+    background-color: var(--content);
+    border-radius: 15px;
+}
+.hero__content{
+    background-size: 100%;
+    padding-bottom: 250px;
+}
+.hero__title, .hero__text{
+    height: 30px;
+    background-color: var(--text);
+    margin: 0 auto 15px;
+    border-radius: 15px;
+}
+.hero__title{
+    width: 350px;
+}
+.hero__text{
+    width: 450px;
+    margin-bottom: 45px;
+}
+.hero__form{
+    display: flex;
+    justify-content: end;
+    border-radius: 25px;
+    background-color: #fff;
+    height: 50px;
+    width: 650px;
+    margin: 0 auto;
+}
+.hero__form button{
+    height: 55px;
+    width: 40%;
+    background-color: var(--content);
+    border-radius: 25px;
+}
+/*--------------------------------------------------*/
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100%;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 70px auto;
+}
+
+.item1, .item2{
+    display: flex;
+    flex-grow: 1;
+}
+.text1, .text2, .text2-1{
+    height: 45px;
+    margin: 0 auto;
+    background-color: var(--text);
+    border-radius: 15px;
+}
+.text1{
+    width: 650px;
+    background-color: var(--content);
+}
+.text2{
+    width: 550px;
+}
+.text2-1{
+    width: 450px;
+}
+
+ .block1, .block2, .block3{
+    display: flex;
+    column-gap: 15px;
+}
+.box{
+    height: 400px;
+    background-color: var(--bg);
+}
+.item1, .item2, .item3{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.text__wrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+.text3, .text4{
+    height: 25px;
+    width: 50%;
+    background-color: var(--text);
+    border-radius: 15px;
+}
+.text4{
+    width: 35%;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+.item5{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.item6{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.item7{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+/*--------------------------------------------------------*/
+.block4, .block5, .block6, .block7{
+    display: flex;
+}
+.offers__container{
+    margin: 40px 0 70px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.offers__content{
+    height: 400px;
+    width: 500px;
+    background-color: var(--bg);
+}
+.offers__descr{
+    margin: 40px 0 0 50px;
+}
+.text5, .text6, .text7, .text8{
+    height: 45px;
+    background-color: var(--content);
+    border-radius: 15px;
+}
+.text5{
+    width: 600px;
+}
+.text6{
+    margin: 15px 0;
+    height: 30px;
+    width: 400px;
+}
+.text7{
+    margin-bottom: 130px;
+    height: 20px;
+    width: 200px;
+    background-color: var(--text);
+}
+.text8{
+    width: 200px;
+}
+/*-----------------------------------------------------*/
+footer{
+    display: flex;
+
+    background-color: var(--bg);
+}
+.info{
+    margin: 50px 50px 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.info__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.info__list li{
+    height: 20px;
+    width: 250px;
+    background-color: var(--text);
+    border-radius: 15px;
+}
+.info__list li:first-child{
+    width: 300px;
+    background-color: var(--content);
+}
+.about{
+    height: 35px;
+    width: 220px;
+    background-color: var(--text);
+    border-radius: 15px;
+}
+.social__list{
+    display: flex;
+    justify-content: space-around;
+}
+.social__item{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--text);
+    margin-top: 15px;
+}

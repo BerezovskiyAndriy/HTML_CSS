@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+/*-----------------------------------------------------*/
+.wrapper{
+    min-height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*row-gap: 15px;*/
+/* ------Можна і так розділити, але як на мене краще буде
+марджином від певного блоку, чи ні?*/
+}
+.header{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+main{
+    display: flex;
+    flex: 1 1 auto;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    padding: 200px 0;
+    background-color: #a45252;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 11;
+    row-gap: 15px;
+}
+/*--Я так зрозумів, щоб не виключати останній елемент
+    за допомогою марджина якраз і відмінно підходить
+    column або row gap. Але в загальному чи можна користуватися
+    маржинами замість row чи це не зовсім логічно??? */
+/*.post:not(:last-child){*/
+/*    margin-bottom: 15px;*/
+/*}*/
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #509f9f;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #d9d9d9;
+    margin-bottom: 15px;
+}

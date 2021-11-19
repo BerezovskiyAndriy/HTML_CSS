@@ -1,0 +1,220 @@
+/*Большие девайсы (большие десктопы, >= 992px)*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 940px;
+    }
+    .item__products {
+        height: 350px;
+        width: 310px;
+    }
+}
+
+/*Средние девайсы («таблетки», >= 768px)*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 745px;
+    }
+    .block1__item {
+        height: 175px;
+        width: 170px;
+    }
+    .block1__text > .text1 {
+        width: 80px;
+    }
+    .block2__item {
+        height: 170px;
+        width: 170px;
+    }
+    .item__products--block1, .item__products--block2 {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .item__products {
+        height: 310px;
+        width: 365px;
+    }
+    .item__products:last-child {
+        width: 100%;
+    }
+    .list__products {
+        row-gap: 20px;
+    }
+    .target__content {
+        width: 370px;
+        padding: 0 15px;
+    }
+}
+
+/*Малые девайсы («ландшафтные», >= 575px)*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 570px;
+    }
+    .header__top--list li{
+        width: 60px;
+    }
+    .logo {
+        height: 60px;
+        width: 120px;
+    }
+    .header__bot--list li {
+        width: 80px;
+    }
+    .block1{
+        height: 560px;
+    }
+    .block1__list{
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .block{
+        width: 50%;
+        align-items: center;
+    }
+    .block1__item {
+        height: 175px;
+        width: 260px;
+    }
+    .block1__text > .text1 {
+        width: 80px;
+    }
+    .block2__item {
+        height: 170px;
+        width: 170px;
+    }
+    .item__products--block1, .item__products--block2 {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .block2__text_wrapper{
+        width: 165px;
+    }
+    .block2__item{
+        height: 150px;
+        width: 150px;
+    }
+    .item__products {
+        height: 310px;
+        width: 100%;
+    }
+
+    .list__products {
+        row-gap: 20px;
+    }
+    .target__content {
+        width: 285px;
+        padding: 0 15px;
+    }
+}
+
+/*Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media  screen and (max-width: 576px){
+    .container {
+        width: auto;
+    }
+    .header__top--list{
+        margin-right: 23px;
+    }
+    .header__bot--list ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+    .header__top--list li{
+        width: 60px;
+    }
+    .header__bot--content{
+        margin: 0 5px;
+    }
+    .logo {
+        height: 60px;
+        width: 90px;
+    }
+    .header__bot--list li{
+        width: 90px;
+    }
+    .header__bot--list li:nth-child(3),
+    .header__bot--list li:nth-child(4) {
+        width: 40%;
+    }
+    .hero__content{
+        width: 300px;
+    }
+    .p3{
+        width: 100%;
+        margin: 0;
+    }
+    .block1{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .block1__list{
+        flex-wrap: wrap;
+        row-gap: 15px;
+        width: 100%;
+    }
+    .block{
+        width: 95%;
+        align-items: center;
+    }
+    .block1__item {
+        height: 175px;
+        width: 95%;
+    }
+    .block1__text, .block2__text{
+        width: 95%;
+    }
+    .block1__text > .text2 {
+        width: 200px;
+    }
+    .block2{
+        height: fit-content;
+    }
+    .block2__item {
+        height: 170px;
+        width: 170px;
+    }
+    .item__products--block1,
+    .item__products--block2 {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .item{
+        width: 100%;
+        padding: 15px;
+    }
+    .block2__text_wrapper{
+        width: 85%;
+    }
+    .wrapper__item{
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .block2__item{
+        height: 160px;
+        width: 160px;
+    }
+    .item__products {
+        height: 310px;
+        width: 100%;
+    }
+    .item__products--block1,
+    .item__products--block2{
+        justify-content: center;
+        width: 100%;
+    }
+    .list__products {
+        row-gap: 20px;
+    }
+    .target{
+        display: block;
+        height: fit-content;
+    }
+    .target__content {
+        width: 80%;
+        padding: 0 15px;
+    }
+    .box__list{
+        width: 290px;
+    }
+}

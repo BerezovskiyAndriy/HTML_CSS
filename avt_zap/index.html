@@ -1,0 +1,1126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik&display=swap"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="css/style.css">
+    <link rel="stylesheet"
+          href="css/media.css">
+    <title>AVT-ZAP</title>
+</head>
+<body>
+<header>
+    <div class="header__content d-flex container">
+        <ul class="nav nav-pills">
+            <li class="nav-item map d-flex">
+                <img src="img/header/map_icon.svg"
+                     alt="map_icon">
+                Ваш город:
+                <a class="nav-link" href="#"><span>Москва</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown d-flex" data-bs-toggle="dropdown" href="#" role="button"
+                   aria-expanded="false">
+                    Информация
+                    <img src="img/header/dropdown_icon.svg"
+                         alt="dropdown_icon">
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Пользовательское соглашение</a></li>
+                    <li><a class="dropdown-item" href="#">Политика конфиденциальности</a></li>
+                    <li><a class="dropdown-item" href="#">Политика возвратов</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown d-flex" data-bs-toggle="dropdown" href="#" role="button"
+                   aria-expanded="false">
+                    Сотрудничество
+                    <img src="img/header/dropdown_icon.svg"
+                         alt="dropdown_icon">
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Соглашение на рассылку
+                        рекламных материалов</a></li>
+                    <li><a class="dropdown-item" href="#">Адрес</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav nav-pills nav-right">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Доставка</a>
+            </li>
+            <li class="nav-item-second">
+                <a class="nav-link" href="#">Оплата</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Гарантия</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Новости</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Журнал</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">О магазине</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills nav-more">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown d-flex" data-bs-toggle="dropdown" href="#" role="button"
+                   aria-expanded="false">
+                    Еще
+                    <img src="img/header/dropdown_icon.svg"
+                         alt="dropdown_icon">
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="#">Доставка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="#">Оплата</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="#">Гарантия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="#">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="#">Журнал</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="#">О магазине</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="hero">
+    <div class="hero__content container">
+        <div class="hero__top d-flex">
+            <div class="logo d-flex">
+                <div class="logo__img">
+                    <a href="#">
+                        <img src="img/hero/logo.png"
+                            alt="logo">
+                    </a>
+                </div>
+                <div class="logo__text">
+                    <h1>AVT-ZAP</h1>
+                    <p>Интернет-магазин запчастей для АКПП</p>
+                </div>
+            </div>
+            <div class="time__address">
+                <div class="time d-flex">
+                    <div class="time__icon">
+                        <img src="img/hero/time_icon.png"
+                             alt="time_icon">
+                    </div>
+                    <div class="time__text">
+                        <p>Мы работаем: будни - 9:00-21:00</p>
+                        <p>сб. - 10:00-15:00</p>
+                    </div>
+                </div>
+                <div class="address d-flex">
+                    <div class="address__icon">
+                        <img src="img/hero/address_icon.png"
+                             alt="address_icon">
+                    </div>
+                    <div class="address__text d-flex">
+                        Невский пр-т, д. 45
+                    </div>
+                </div>
+            </div>
+            <div class="tell">
+                <button class="whats-app">
+                    <div class="whats-app__btn d-flex">
+                        <img src="img/hero/whatsapp_icon.png"
+                             alt="whatsapp_icon">
+                        <p>Напишите нам в WhatsApp</p>
+                    </div>
+                </button>
+                <div class="hero__number ">
+                    <a href="tel:+73832919286">+7 383 291 92 86</a>
+                    <p>
+                        <button>форма обратной связи</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="hero__bottom d-flex">
+            <div class="hero__bottom--content d-flex">
+                <div class="catalog__wrap">
+                    <button class="catalog__btn d-flex">
+                        <div class="catalog__btn--content d-flex">
+                            <span></span>
+                            <h5>Каталог</h5></div>
+                    </button>
+                    <form class="wpap__search d-flex">
+                        <input type="text"
+                               name="search__fake"
+                               placeholder="Поиск">
+                        <input type="text"
+                               name="search"
+                               placeholder="Поиск по наименованию или артикулу">
+                        <input type="submit"
+                               id="search__btn"
+                               value="Найти">
+                       <button class="search__btn--fake">
+                           <img src="img/hero/search_icon.svg"
+                                alt="search_icon">
+                       </button>
+                    </form>
+                </div>
+                <div class="shopping-cabinet d-flex">
+                    <div class="login d-flex">
+                        <img src="img/hero/login_icon.png"
+                             alt="login_icon">
+                        <span>
+                            <a href="#">Войти</a>
+                        </span>
+                    </div>
+                    <div class="favorites d-flex">
+                        <img src="img/hero/favorites_icon.png"
+                             alt="favorites_icon">
+                        <span>
+                            <a href="#">Избранное</a>
+                        </span>
+                    </div>
+                    <div class="basket d-flex">
+                        <img src="img/hero/basket_icon.png"
+                             alt="basket_icon">
+                        <span>
+                            <a href="#">В корзине нет товаров</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+    <section class="main__slider container d-flex">
+        <div class="slider">
+            <div class="slider__item">
+                <div class="wrap-img"><img src="img/slider/slider1.png"
+                        alt="slider1"></div>
+                <div class="slider__content">
+                    <a href="#"><h2>Сцепление в сборе</h2></a>
+                    <h3>0AMCLUTCH</h3>
+                    <p>14 499,99 ₽ <span>18 550,99 ₽ </span></p>
+                    <button class="d-flex">
+                        <div class="img">
+                            <img src="img/slider/basket_icon.svg"
+                                alt="basket_icon">
+                        </div>
+                        <div class="text">В корзину</div>
+                    </button>
+                </div>
+            </div>
+            <div class="slider__item">
+                <img src="img/slider/slider1.png"
+                     alt="slider2">
+                <div class="slider__content">
+                    <h2>Сцепление в сборе</h2>
+                    <h3>0AMCLUTCH</h3>
+                    <p>14 499,99 ₽ <span>18 550,99 ₽ </span></p>
+                    <button class="d-flex">
+                        <div class="img">
+                            <img src="img/slider/basket_icon.svg"
+                                 alt="basket_icon">
+                        </div>
+                        <div class="text">В корзину</div>
+                    </button>
+                </div>
+            </div>
+            <div class="slider__item">
+                <img src="img/slider/slider1.png"
+                     alt="slider3">
+                <div class="slider__content">
+                    <h2>Сцепление в сборе</h2>
+                    <h3>0AMCLUTCH</h3>
+                    <p>14 499,99 ₽ <span>18 550,99 ₽ </span></p>
+                    <button class="d-flex">
+                        <div class="img">
+                            <img src="img/slider/basket_icon.svg"
+                                 alt="basket_icon">
+                        </div>
+                        <div class="text">В корзину</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="slider__content">
+            <div class="content__item">
+                <div class="text1">
+                    Акция
+                </div>
+                <div class="item__descr d-flex">
+                    <div class="img">
+                        <img src="img/slider/item1.png"
+                             alt="item1">
+                    </div>
+                    <div class="text">
+                        <h5>Обгонная муфта гидротрансформатор</h5>
+                        <p>BW-SP-2 SONNAX</p>
+                    </div>
+                </div>
+                <div class="item__btn d-flex">
+                    <div class="text">
+                        4 430₽ <span>5 430₽</span>
+                    </div>
+                    <button>
+                        <img src="img/slider/basket_icon.svg"
+                             alt="basket_icon">
+                    </button>
+                </div>
+            </div>
+            <div class="content__item">
+                <div class="text1">
+                    Акция
+                </div>
+                <div class="item__descr d-flex">
+                    <div class="img">
+                        <img src="img/slider/item2.png"
+                             alt="item2">
+                    </div>
+                    <div class="text">
+                        <h5>Комплект фрикционных дисков</h5>
+                        <p>BW-SP-2 SONNAX</p>
+                    </div>
+                </div>
+                <div class="item__btn d-flex">
+                    <div class="text">
+                        4 430₽ <span>5 430₽</span>
+                    </div>
+                    <button>
+                        <img src="img/slider/basket_icon.svg"
+                             alt="basket_icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products__slider container d-flex">
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                    alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item1.png"
+                         alt="item1">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Масла</h2>
+                    <p>Трансмиссионное масло;</p>
+                    <p>присалка в масло акпп</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item2.png"
+                         alt="item2">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Фильтры</h2>
+                    <p>Масляный фильтр;</p>
+                    <p>фильтр воздушный</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item3.png"
+                         alt="item3">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Радиаторы</h2>
+                    <p>Дополнительные</p>
+                    <p>радиаторы</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item1.png"
+                         alt="item1">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Масла</h2>
+                    <p>Трансмиссионное масло;</p>
+                    <p>присалка в масло акпп</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item2.png"
+                         alt="item2">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Фильтры</h2>
+                    <p>Масляный фильтр;</p>
+                    <p>фильтр воздушный</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item3.png"
+                         alt="item3">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Радиаторы</h2>
+                    <p>Дополнительные</p>
+                    <p>радиаторы</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item1.png"
+                         alt="item1">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Масла</h2>
+                    <p>Трансмиссионное масло;</p>
+                    <p>присалка в масло акпп</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item2.png"
+                         alt="item2">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Фильтры</h2>
+                    <p>Масляный фильтр;</p>
+                    <p>фильтр воздушный</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+        <div class="products__slider--item">
+            <div class="wrap__img">
+                <img src="img/products_slider/background.png"
+                     alt="background">
+                <div class="item">
+                    <img src="img/products_slider/item3.png"
+                         alt="item3">
+                </div>
+                <div class="products__slider--content">
+                    <h2>Радиаторы</h2>
+                    <p>Дополнительные</p>
+                    <p>радиаторы</p>
+                    <button>Перейти</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="description container">
+        <div class="descr__button d-flex">
+            <button class="btn1">
+                Подборки товаров
+            </button>
+            <button class="btn2">
+                Акции
+            </button>
+            <button class="btn3">
+                Сейчас покупают
+            </button>
+        </div>
+        <div class="details1 d-flex">
+            <div class="block1">
+                <div class="img">
+                    <img src="img/description/item1.png"
+                        alt="item1">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Intermediate accumelator sleeve</h2>
+                <div class="p2">
+                    ЦЕНА
+                    <span>
+                        <a href="#">по запросу</a>
+                    </span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                    alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="discount">-40%</div>
+                <div class="img">
+                    <img src="img/description/item2.png"
+                         alt="item2">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Комплект фрикционных дисков</h2>
+                <div class="p4">
+                    4 430₽
+                    <span>5 430₽</span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                                  alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                 alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="img">
+                    <img src="img/description/item1.png"
+                         alt="item1">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Intermediate accumelator sleeve</h2>
+                <div class="p2">
+                    ЦЕНА
+                    <span>
+                        <a href="#">по запросу</a>
+                    </span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                                  alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                 alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="discount">-40%</div>
+                <div class="img">
+                    <img src="img/description/item2.png"
+                         alt="item2">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Комплект фрикционных дисков</h2>
+                <div class="p4">
+                    4 430₽
+                    <span>5 430₽</span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                                  alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                 alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="details1 d-flex">
+            <div class="block1">
+                <div class="img">
+                    <img src="img/description/item1.png"
+                         alt="item1">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Intermediate accumelator sleeve</h2>
+                <div class="p2">
+                    ЦЕНА
+                    <span>
+                        <a href="#">по запросу</a>
+                    </span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                                  alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                 alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="discount">-40%</div>
+                <div class="img">
+                    <img src="img/description/item2.png"
+                         alt="item2">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Комплект фрикционных дисков</h2>
+                <div class="p4">
+                    4 430₽
+                    <span>5 430₽</span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                                  alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                 alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="img">
+                    <img src="img/description/item1.png"
+                         alt="item1">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Intermediate accumelator sleeve</h2>
+                <div class="p2">
+                    ЦЕНА
+                    <span>
+                        <a href="#">по запросу</a>
+                    </span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                                  alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                 alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="discount">-40%</div>
+                <div class="img">
+                    <img src="img/description/item2.png"
+                         alt="item2">
+                </div>
+                <div class="p1 d-flex">
+                    <p>
+                        <img src="img/description/Star.svg"
+                             alt="star">
+                        4.5
+                    </p>
+                    <p>10 отзывов</p>
+                </div>
+                <h2>Комплект фрикционных дисков</h2>
+                <div class="p4">
+                    4 430₽
+                    <span>5 430₽</span>
+                </div>
+                <div class="group__btn d-flex">
+                    <button>
+                        <div class="content__btn d-flex">
+                            <div class="img"><img src="img/description/basket_icon.svg"
+                                                  alt="basket_icon"></div>
+                            <div class="p3">В корзину</div>
+                        </div>
+                    </button>
+                    <div class="like">
+                        <button>
+                            <img src="img/description/like_icon.svg"
+                                 alt="like_icon">
+                        </button>
+                    </div>
+                    <div class="chart">
+                        <button>
+                            <img src="img/description/chart_icon.svg"
+                                 alt="chart_icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <button class="show-more">
+                Показать еще
+            </button>
+        <div class="news__title">НОВОСТИ</div>
+    </section>
+</main>
+<div class="news">
+    <div class="news__wrap container d-flex">
+        <div class="news__item">
+            <div class="sing__wrap">
+                <div class="signboard">
+                    3 ноября
+                    <div class="liner">
+                        <img src="img/news/liner_icon.svg"
+                             alt="liner_icon">
+                    </div>
+                </div>
+            </div>
+            <div class="news__link">
+                <a href="#">Изменения на сайте</a>
+            </div>
+            <div class="news__text">
+                Недавно на сайте мы ввели очередную порцию изменений, которые, как нам кажется, должны
+                улучшить функциональность сайта и сделать его более удобным для пользователей. Реакция
+                посетителей не заставила себя долго ждать...
+            </div>
+        </div>
+        <div class="news__item">
+            <div class="sing__wrap">
+                <div class="signboard">
+                    2 ноября
+                    <div class="liner">
+                        <img src="img/news/liner_icon.svg"
+                             alt="liner_icon">
+                    </div>
+                </div>
+            </div>
+            <div class="news__link">
+                <a href="#">Вышла новая версия для мобильных приложений</a>
+            </div>
+            <div class="news__text">
+                Что нового в 2.0:
+                <p>— добавлена история поиска;</p>
+                <p>— добавлена синхронизация с сервером;</p>
+                <p>— испрвление ошибок.</p>
+            </div>
+        </div>
+        <div class="news__item">
+            <div class="sing__wrap">
+                <div class="signboard">
+                    1 ноября
+                    <div class="liner">
+                        <img src="img/news/liner_icon.svg"
+                             alt="liner_icon">
+                    </div>
+                </div>
+            </div>
+            <div class="news__link">
+                <a href="#">Очередная порция обновлений для мобильных приложений</a>
+            </div>
+            <div class="news__text">
+                Что нового добавлено:
+                <p>— поддержка пуш-уведомлений;</p>
+                <p>— разделы для покупателей;</p>
+                <p>— просмотр покупателя в заказах;</p>
+                <p>— возможность поиска;</p>
+                <p>— исправление ошибок.</p>
+            </div>
+        </div>
+        <div class="news__item">
+            <div class="sing__wrap">
+                <div class="signboard">
+                    31 октября
+                    <div class="liner">
+                        <img src="img/news/liner_icon.svg"
+                             alt="liner_icon">
+                    </div>
+                </div>
+            </div>
+            <div class="news__link">
+                <a href="#">Интерфейс заказов для покупателей стал более функциональным</a>
+            </div>
+            <div class="news__text">
+                Он позволяет выводить все формируемые системой уведомления(e-mail, смс, web) в
+                едином окне с системой удобной фильтрации поиска.
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="footer__content d-flex container">
+       <div class="footer__catalog">
+           <ul class="d-flex">
+               <li>КАТАЛОГ</li>
+               <li>
+                   <a href="#">Каталог запчастей</a>
+               </li>
+               <li>
+                   <a href="#">Масла</a>
+               </li>
+               <li>
+                   <a href="#">Фильтра</a>
+               </li>
+               <li>
+                   <a href="#">Радиаторы</a>
+               </li>
+               <li>
+                   <a href="#">Sonnax</a>
+               </li>
+               <li>
+                   <a href="#">Manual</a>
+               </li>
+               <li>
+                   <a href="#">Новинки</a>
+               </li>
+               <li>
+                   <a href="#">Акции</a>
+               </li>
+           </ul>
+       </div>
+       <div class="footer__rubricator">
+           <ul class="d-flex">
+               <li>РУБРИКАТОР</li>
+               <li>
+                   <a href="#">Доставка</a>
+               </li>
+               <li>
+                   <a href="#">Оплата</a>
+               </li>
+               <li>
+                   <a href="#">Гарантия</a>
+               </li>
+               <li>
+                   <a href="#">Новости</a>
+               </li>
+               <li>
+                   <a href="#">Журнал</a>
+               </li>
+               <li>
+                   <a href="#">О магазине</a>
+               </li>
+               <li>
+                   <a href="#">Контактная информация</a>
+               </li>
+           </ul>
+       </div>
+       <div class="footer__information">
+           <ul class="d-flex">
+               <li>ИНФОРМАЦИЯ</li>
+               <li>
+                   <a href="#">Пользовательское соглашение об использовании персональных данных</a>
+               </li>
+               <li>
+                   <a href="#">Политика конфиденциальности</a>
+               </li>
+               <li>
+                   <a href="#">Соглашение на рассылку рекламных материалов</a>
+               </li>
+               <li>
+                   <a href="#">Политика возвратов</a>
+               </li>
+               <li>Мы принимаем</li>
+               <li>
+                   Мы принимаем
+               </li>
+               <img src="img/footer/card_icon.png"
+                    alt="card_icon">
+           </ul>
+       </div>
+       <div class="all__contacts">
+           <div class="info d-flex">
+               <div class=footer__contact">
+                   <ul class="d-flex">
+                       <li>КОНТАКТЫ</li>
+                       <li>
+                           <a href="tel:+73832919286">+7 383 291 92 86</a>
+                       </li>
+                       <li>
+                           <a href="mailto:info@avt-zap.ru">info@avt-zap.ru</a>
+                       </li>
+                   </ul>
+               </div>
+               <div class="footer__address">
+                   <ul class="d-flex">
+                       <li>АДРЕС</li>
+                       <li>
+                           г. Новосибирск,
+                       </li>
+                       <li>
+                           ул. Планировочная, 5, офис 105
+                       </li>
+                   </ul>
+               </div>
+           </div>
+           <div class="form__wrap">
+               <div class="form1 d-flex">
+                   <div class="p7">Мы онлайн, воспользуйтесь</div>
+                   <div class="p8">
+                       <a href="#">Форма обратной связи</a>
+                   </div>
+               </div>
+               <div class="form2__wrap">
+                   <div class="p9">Подпишитесь на нашу расслыку и вы первыми узнаете о скидках и акциях</div>
+                   <form class="form2 d-flex">
+                       <input type="text"
+                              name="form"
+                              placeholder="Введите ваш email">
+                       <input type="submit"
+                              id="form2__btn"
+                              value="Подписаться">
+                   </form>
+                   <div class="social d-flex">
+                       <div class="social__item d-flex">
+                           <div class="fb">
+                               <a href="#">
+                                   <img src="img/footer/facebook_icon.svg"
+                                        alt="facebook_icon">
+                               </a>
+                           </div>
+                           <div class="tg">
+                               <a href="#">
+                                   <img src="img/footer/telegram_icon.svg"
+                                        alt="telegram_icon">
+                               </a>
+                           </div>
+                           <div class="tw">
+                               <a href="#">
+                                   <img src="img/footer/twitter_icon.svg"
+                                        alt="twitter_icon">
+                               </a>
+                           </div>
+                           <div class="gp">
+                               <a href="#">
+                                   <img src="img/footer/google-plus_icon.svg"
+                                        alt="google-plus_icon">
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+           </div>
+       </div>
+   </div>
+    <div class="copyright container">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</div>
+</footer>
+<div class="nav__bar--fixed d-flex">
+    <div class="home">
+        <button>
+            <a href="#">
+                <div class="home__img">
+                    <img src="img/nav_bar/home_icon.svg"
+                         alt="home_icon">
+                </div>
+                <div class="home__text">Главная</div>
+            </a>
+        </button>
+    </div>
+    <div class="favorites">
+        <button>
+            <a href="#">
+                <div class="favorites__img">
+                    <img src="img/nav_bar/favorites_icon.svg"
+                         alt="favorites_icon">
+                </div>
+                <div class="favorites__text">Избранное</div>
+            </a>
+        </button>
+    </div>
+    <div class="basket">
+        <button>
+            <a href="#">
+                <div class="basket__img">
+                    <img src="img/nav_bar/basket_icon.svg"
+                         alt="basket_icon">
+                </div>
+                <div class="basket__text">Корзина</div>
+            </a>
+        </button>
+    </div>
+    <div class="user">
+        <button>
+            <a href="#">
+                <div class="user__img">
+                    <img src="img/nav_bar/user_icon.svg"
+                         alt="user_icon">
+                </div>
+                <div class="user__text">Профиль</div>
+            </a>
+        </button>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

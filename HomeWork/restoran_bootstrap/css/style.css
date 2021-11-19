@@ -1,0 +1,134 @@
+@import "_normalize.css";
+@import "_global.css";
+/* ---------------------------- */
+
+/* header */
+.hero__wrap{
+    background: url("../img/hero_bg.png") no-repeat center/cover;
+}
+header .row{
+    padding-top: 50px;
+    align-items: center;
+    margin-bottom: 204px;
+}
+.col-xl-5 li img{
+    height: 13px;
+    width: 13px;
+}
+.col-xl-5 ul{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    justify-content: end;
+    align-items: center;
+    column-gap: 23px;
+}
+.col-xl-3 .text1,
+.col-xl-3 .text2{
+    width: 170px;
+}
+.col-xl-3 .text1  a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.col-xl-3 .text2{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF
+}
+.col-xl-3 .contacts{
+    border-left: 1px solid #FFFFFF;
+    padding-left: 34px;
+}
+.col-xl-2 button{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 47px;
+    width: 157px;
+    background-color: #FF7400;
+}
+
+/* hero content */
+.hero__content .col-xl-6 .hero__text{
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 231px;
+}
+.hero__content .col-xl-6 .hero__text h1{
+    font-size: 80px;
+    line-height: 92px;
+    padding: 12px 0;
+}
+.hero__content .col-xl-6 .hero__text p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    align-items: center;
+    padding-bottom: 21px;
+}
+.hero__content .col-xl-6 .hero__text p::before,
+.hero__content .col-xl-6 .hero__text p::after{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 61px;
+    background-color: #C4C4C4
+}
+.hero__content .col-xl-6 .hero__text p::before{
+    margin-right: 8px;
+}
+.hero__content .col-xl-6 .hero__text p:after{
+    margin-left: 8px;
+}
+.hero__content .col-xl-6 .hero__text button{
+    height: 47px;
+    width: 137px;
+    background-color: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+/* main block */
+main{
+    position: relative;
+}
+.main__block{
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    top: -107px;
+}
+.main__block--item{
+    height: 328px;
+    width: 349px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.main__block--item p{
+    font-size: 26px;
+    line-height: 30px;
+}
+.main__block--title{
+    color: #2C2C2C;
+}
+.main__block--text{
+    color: #656363;
+    margin-top: 20px;
+}
+.main__block--item span{
+    color: #BC9060;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------------*/
+/* ------Робив так, щоб по максимуму використати
+ теги які використовувалися в уроці. Нижче в
+ закоментованому сss вказав як думаю було б правильніше*/
+.wrapper{
+    border: 3px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 5px;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    column-gap: 20px;
+}
+.a, .b, .c{
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    height: 100px;
+}
+.b{
+    flex-grow: 2;
+}
+.c{
+    flex-grow: 1;
+}
+.b, .c{
+    height: 200px;
+    column-gap: 15px;
+}
+/* ---Але як на мене так краще, ну по ширинах не
+впевнений, але на рахунок того що задавати висоту
+за допомогою падінгів, тобто по контенту, а не фактично,
+здається більш правильно, оскількт там текту може бути
+і більше а структура не поміняється---- */
+/*.wrapper {*/
+/*    border: 3px solid #d9d9d9;*/
+/*    padding: 5px;*/
+/*    margin: 20px;*/
+/*}*/
+/*.a, .b, .c {*/
+/*    background-color: #d9d9d9;*/
+/*    text-align: center;*/
+/*}*/
+/*.a {*/
+/*    padding: 50px 0;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.b, .c {*/
+/*    padding: 100px 0;*/
+/*}*/
+/*.container {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*}*/
+/*.b {*/
+/*    width: 75%;*/
+/*    margin-right: 15px;*/
+/*}*/
+/*.c {*/
+/*    width: 25%;*/
+/*}*/

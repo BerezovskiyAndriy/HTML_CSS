@@ -1,0 +1,140 @@
+/*Большие девайсы (большие десктопы, >= 992px)*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .block1 {
+        max-width: 950px;
+    }
+}
+/*Средние девайсы («таблетки», >= 768px)*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .block1 {
+        height: auto;
+        width: auto;
+    }
+    .block1__list{
+        padding: 25px 0;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .block1__item {
+        height: 170px;
+        width: 80%;
+    }
+    .block1__text > .text1 {
+        width: 70px;
+    }
+    .block1__text > .text2 {
+        width: 60px;
+    }
+    .block2__item {
+        height: 160px;
+        width: 160px;
+    }
+    .block2__text_wrapper {
+        width: 170px;
+    }
+    .wrapper__item {
+        margin: 70px auto;
+    }
+    .block{
+        width: 50%;
+        align-items: center;
+    }
+}
+/*Малые девайсы («ландшафтные», >= 575px)*/
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .block1 {
+        height: auto;
+        width: auto;
+    }
+    .block1__list{
+        padding: 25px 0;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .block1__item {
+        height: 170px;
+        width: 80%;
+    }
+    .block1__text > .text1 {
+        width: 70px;
+    }
+    .block1__text > .text2 {
+        width: 60px;
+    }
+    .block2__item {
+        height: 170px;
+        width: 170px;
+    }
+    .block2__text_wrapper {
+        width: 170px;
+    }
+    .wrapper__item {
+        margin: 70px auto;
+    }
+    .block{
+        width: 50%;
+        align-items: center;
+    }
+    .block2{
+        height: auto;
+    }
+    .block2__item{
+        height: 150px;
+        width: 150px;
+    }
+}
+/*Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media  screen and (max-width: 576px){
+    .block1 {
+        height: auto;
+        width: auto;
+    }
+    .block1__list{
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .block1__item {
+        height: 170px;
+        width: 100%;
+    }
+    .block1__text{
+        width: 100%;
+    }
+    .block1__text > .text1 {
+        width: 80%;
+    }
+    .block1__text > .text2 {
+        width: 50%;
+    }
+    .block2__item {
+        height: 170px;
+        width: 170px;
+    }
+    .block2__text_wrapper {
+        width: 170px;
+    }
+    .wrapper__item {
+        margin: 70px auto;
+    }
+    .block{
+        width: 100%;
+        align-items: center;
+        padding: 15px;
+    }
+    .block2__item{
+        height: 150px;
+        width: 150px;
+    }
+    .wrapper__item{
+        flex-direction: column;
+        width: auto;
+    }
+    .block2{
+        height: auto;
+    }
+    .item{
+        padding: 65px;
+    }
+}
+
+/*---ЧОМУ на розширенні 587 не правильно відображається .block2 ???----*/

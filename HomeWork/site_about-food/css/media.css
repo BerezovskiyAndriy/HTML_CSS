@@ -1,0 +1,521 @@
+/*Большие девайсы (большие десктопы, >= 992px)*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 940px;
+    }
+
+    .main__block--item {
+        width: 292px;
+    }
+
+    .products__item--text > span {
+        display: none;
+    }
+
+    .products__item--text {
+        margin-left: 15px;
+    }
+
+    .item__menu {
+        width: 290px;
+    }
+
+    .gallery__img {
+        display: block;
+    }
+
+    .img__block1 {
+        margin-bottom: 30px;
+    }
+
+    .item__top img {
+        width: 100%;
+    }
+
+    .image1, .image2 {
+        flex-grow: 1;
+    }
+
+    .image1 img, .image2 img, .image3 img {
+        width: 100%;
+    }
+
+    .img__block1 .item__bottom,
+    .img__block2 .item__top {
+        column-gap: 30px;
+    }
+
+    .workers__img {
+        width: 280px;
+    }
+
+    .workers__img img {
+        width: 100%;
+    }
+}
+
+/*Средние девайсы («таблетки», >= 768px)*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 760px;
+    }
+
+    .nav__bar {
+        width: 100%;
+        display: block;
+        text-align: end;
+    }
+
+    .nav__list {
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+    .header__info {
+        margin-bottom: 7px;
+        text-align: end;
+        width: 100%;
+        border: none;
+    }
+
+    .header__info p {
+        display: none;
+    }
+
+    .main__block {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .main__block--item {
+        height: 300px;
+        width: 100%;
+    }
+
+    .our__history {
+        margin-top: 900px;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    .our__history--content {
+        width: 300px;
+    }
+
+    .our__history--img img {
+        width: 100%;
+    }
+
+    .products__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .products__title h2 {
+        margin-bottom: 60px;
+    }
+
+    .products__img img {
+        width: 100%;
+        height: 385px;
+    }
+
+    .products__item {
+        flex-grow: 1;
+        height: 200px;
+    }
+
+    .products__item img {
+        width: 100%;
+    }
+
+    .products__item--text {
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .products__item--text > span {
+        display: none;
+    }
+
+    .menu__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .item__menu {
+        width: 100%;
+    }
+
+    .plus__circle {
+        right: 255px;
+    }
+
+    .plus__item2 {
+        display: none;
+    }
+
+
+    .gallery__img {
+        display: block;
+    }
+
+    .img__block1 {
+        margin-bottom: 30px;
+    }
+
+    .item__top img {
+        width: 100%;
+    }
+
+    .image1, .image2 {
+        flex-grow: 1;
+    }
+
+    .image1 img, .image2 img, .image3 img {
+        width: 100%;
+    }
+
+    .img__block1 .item__bottom,
+    .img__block2 .item__top {
+        column-gap: 30px;
+    }
+
+    .workers__content {
+        column-gap: 30px;
+    }
+
+    .workers__img {
+        width: 280px;
+    }
+
+    .workers__img img {
+        width: 100%;
+    }
+}
+
+/*Малые девайсы («ландшафтные», >= 575px)*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 570px;
+    }
+
+    .nav__bar {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .main__block {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .main__block--item {
+        height: 300px;
+        width: 100%;
+    }
+
+    .our__history {
+        margin-top: 910px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .our__history--content {
+        width: 100%;
+    }
+
+    .order__content {
+        flex-direction: column;
+    }
+
+    .order__text {
+        width: 545px;
+        text-align: center;
+    }
+
+    .order__content button {
+        margin-bottom: 80px;
+    }
+
+    .products__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .products__title h2 {
+        margin-bottom: 60px;
+    }
+
+    .products__img img {
+        width: 100%;
+        height: 385px;
+    }
+
+    .products__item {
+        flex-grow: 1;
+        height: 200px;
+    }
+
+    .products__item img {
+        width: 100%;
+    }
+
+    .products__item--text {
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .products__item--text > span {
+        display: none;
+    }
+
+    .menu__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .menu__title {
+        padding-bottom: 60px;
+    }
+
+    .item__menu {
+        width: 100%;
+    }
+
+    .plus__circle {
+        right: 172px;
+    }
+
+    .plus__item2 {
+        display: none;
+    }
+
+    .gallery__img {
+        display: block;
+    }
+
+    .img__block1 {
+        margin-bottom: 30px;
+    }
+
+    .item__top img {
+        width: 100%;
+    }
+
+    .image1, .image2 {
+        flex-grow: 1;
+    }
+
+    .image1 img, .image2 img, .image3 img {
+        width: 100%;
+    }
+
+    .img__block1 .item__bottom,
+    .img__block2 .item__top {
+        column-gap: 30px;
+    }
+
+    .workers__content {
+        column-gap: 30px;
+    }
+
+    .workers__img {
+        width: 280px;
+    }
+
+    .workers__img img {
+        width: 100%;
+    }
+}
+
+/*Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: auto;
+    }
+
+    .nav__bar {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .hero__content {
+        width: auto;
+    }
+
+    .main__block {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        margin: 0 -10px;
+    }
+
+    .main__block--item {
+        height: 300px;
+        width: 100%;
+    }
+
+    .our__history {
+        margin-top: 910px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .our__history--content {
+        width: 100%;
+    }
+
+    .our__history--text {
+        margin-bottom: 40px;
+    }
+
+    .our__history--other {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .our__history--img img {
+        height: 280px;
+        width: 100%;
+    }
+
+    .order__content {
+        flex-direction: column;
+    }
+
+    .order__text {
+        width: auto;
+        text-align: center;
+    }
+
+    .order__content button {
+        margin-bottom: 80px;
+    }
+
+    .products__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .products__title h2 {
+        margin-bottom: 60px;
+    }
+
+    .products__img img {
+        width: 100%;
+        height: 385px;
+    }
+
+    .products__item {
+        flex-grow: 1;
+        height: 200px;
+    }
+
+    .products__item img {
+        width: 100%;
+    }
+
+    .products__item--text {
+        width: 100%;
+        flex-grow: 1;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .products__item--text > span {
+        display: none;
+    }
+
+    .menu__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .menu__title {
+        padding-bottom: 60px;
+    }
+
+    .menu__img img {
+        width: 50%;
+    }
+
+    .item__menu:not(:first-child) {
+        display: none;
+    }
+
+    .item__menu {
+        width: 100%;
+    }
+
+    .plus__circle {
+        width: 21%;
+        right: 26%;
+        height: 41%;
+    }
+
+    .plus__circle span {
+        width: 80%;
+        height: 80%;
+    }
+
+    .plus__item2 {
+        display: none;
+    }
+
+    .quote__text {
+        margin: 0 7px;
+    }
+
+    .gallery__img {
+        display: block;
+    }
+
+    .img__block1 {
+        margin-bottom: 30px;
+    }
+
+    .item__top img {
+        width: 100%;
+    }
+
+    .image1, .image2 {
+        flex-grow: 1;
+    }
+
+    .image1 img, .image2 img, .image3 img {
+        width: 100%;
+    }
+
+    .img__block1 .item__bottom,
+    .img__block2 .item__top {
+        column-gap: 30px;
+    }
+
+    .workers__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .workers__img {
+        width: 100%;
+    }
+
+    .workers__img img {
+        width: 100%;
+    }
+}
+
